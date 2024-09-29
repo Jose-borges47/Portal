@@ -6,7 +6,6 @@ import canto from './img_canto.svg';
 import sinal from './sinal_menor.svg';
 import './App.css';
 
-// Páginas (placeholders até que você crie as páginas reais)
 const Home = () => <div>Home</div>;
 const SobreNos = () => <div>Sobre Nós</div>;
 const Noticias = () => <div>Notícias</div>;
@@ -20,7 +19,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          {/* Navegação superior */}
+          
           <nav className="App-nav">
             <ul>
               <li>
@@ -41,12 +40,10 @@ function App() {
             </ul>
           </nav>
 
-          {/* Imagens de fundo */}
           <img src={logo} className="App-logo" alt="logo" />
           <img src={fundo} className="App-fundo" alt="fundo" />
           <img src={canto} className="App-canto" alt="canto" />
 
-          {/* Conteúdo da tabela anterior */}
           <table className="App-table">
             <tbody>
               <tr>
