@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  position: absolute;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  top: 10%;
+  left: 25%;
+  height: 319px;
+  width: auto;
+  z-index: 2;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-fundo {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.App-canto {
+  position: absolute;
+  top: 82%;
+  left: 2%;
+  width: auto;
+}
+
+.App-nav {
+  top: 120px;
+  position: absolute;
+  padding: 10px;
+  z-index: 3;
+
+}
+
+.App-nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+  gap: 50px;
+  margin: 0;
+}
+
+.App-nav li {
+  font-weight: 500;
+  font: arial;
+  font-size: 20px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.App-table {
+  position: relative;
+  left: -25%; 
+  width: 200px;
+  margin-top: 100px;
+  border-collapse: collapse;
+  border-radius: 20px;
+  font-weight: 800;
+}
+
+.App-table td {
+  color: #C85B5C;
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.App-table td:hover {
+  background-color: #f0f0f0;
+}
+
+.active {
+  background-color: blue;
+}
+
+.App-nav a {
+  text-decoration: none;
+}
+
+.App-table a {
+  text-decoration: none;
+}
