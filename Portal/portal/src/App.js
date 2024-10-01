@@ -10,7 +10,7 @@ const Home = () => <div>Home</div>;
 const SobreNos = () => <div>Sobre Nós</div>;
 const Noticias = () => <div>Notícias</div>;
 const Publicacoes = () => <div>Publicações</div>;
-const Patrocinadores = () => <div>Patrocinadores</div>;
+const Capacitacoes = () => <div>Capacitaçôes</div>;
 
 function App() {
   const [selectedItem, setSelectedItem] = useState('');
@@ -43,8 +43,8 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link to="/patrocinadores" onClick={() => setSelectedItem('Patrocinadores')}>
-                  Patrocinadores <img src={sinal} className='App-sinal' alt="sinal" />
+                <Link to="/capacitadores" onClick={() => setSelectedItem('Capacitaçôes')}>
+                  Capacitaçôes <img src={sinal} className='App-sinal' alt="sinal" />
                 </Link>
               </li>
             </ul>
@@ -74,18 +74,10 @@ function App() {
               </tr>
               <tr>
                 <td
-                  className={selectedItem === 'Encontros' ? 'active' : ''}
-                  onClick={() => setSelectedItem('Encontros')}
+                  className={selectedItem === 'Contatos' ? 'active' : ''}
+                  onClick={() => setSelectedItem('Contatos')}
                 >
-                  <Link to="/encontros">Encontros</Link>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  className={selectedItem === 'Empregos' ? 'active' : ''}
-                  onClick={() => setSelectedItem('Empregos')}
-                >
-                  <Link to="/empregos">Empregos</Link>
+                  <Link to="/encontros">Contatos</Link>
                 </td>
               </tr>
             </tbody>
@@ -97,8 +89,8 @@ function App() {
           <Route path="/sobre-nos" element={<SobreNos />} />
           <Route path="/noticias" element={<Noticias />} />
           <Route path="/publicacoes" element={<Publicacoes />} />
-          <Route path="/patrocinadores" element={<Patrocinadores />} />
-        </Routes>
+          <Route path="/capacitacoes" element={<Capacitacoes />} />
+        </Routes> 
       </div>
       <div className='titulo_SN'> 
         <p>
