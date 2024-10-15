@@ -67,7 +67,7 @@
   font-weight:700;
   font: arial;
   font-size: 20px;
-  padding: 12px;
+  padding: 10px;
   border-radius: 10px;
 }
 
@@ -78,6 +78,7 @@
   margin-top: 100px;
   border-radius: 20px;
   font-weight: 800;
+  box-sizing: 20px;
 }
 
 .App-table td {
@@ -104,6 +105,7 @@
 }
 
 .App-nav a {
+  font-size: 22px;
   text-decoration: none;
   color: white;
 }
@@ -130,4 +132,8 @@
   top: 40%;
   font-weight: 600;
   font-size: 40px;
+}
+
+.App-nav a:hover {
+  color: plum;
 }
