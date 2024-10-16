@@ -84,13 +84,7 @@ function App() {
           </table>
         </header>
 
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/sobre-nos" element={<SobreNos />} />
-          <Route path="/noticias" element={<Noticias />} />
-          <Route path="/publicacoes" element={<Publicacoes />} />
-          <Route path="/capacitacoes" element={<Capacitacoes />} />
-        </Routes> 
+         
       </div>
       <div className='titulo_SN'> 
         <p>

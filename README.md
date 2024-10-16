@@ -22,12 +22,7 @@ Este projeto trata de um portal desenvolvido com React.js. O objetivo do portal 
    ```bash
    git clone https://github.com/Jose-borges47/Portal.git
   ```
-**2**. Instale as dependências:
-
-  ```bash
-  npm install
-  ```
-**3**. Navegue até a pasta do projeto:
+**2**. Navegue até a pasta do projeto:
   
   ```bash
   cd Portal
@@ -37,6 +32,11 @@ Este projeto trata de um portal desenvolvido com React.js. O objetivo do portal 
  cd portal
  ``` 
   
+**3**. Instale as dependências:
+
+  ```bash
+  npm install
+  ```
 **4**. Inicie o projeto:
 
 ```bash
